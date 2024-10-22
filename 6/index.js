@@ -16,4 +16,4 @@ function checkFileExistsSync(filepath) {
   return flag;
 }
 
-console.log(checkFileExistsSync(path.resolve(__dirname, "test.txt")));
+console.log(checkFileExistsSync(path.resolve(__dirname, "test2.txt")));

@@ -14,7 +14,7 @@ const readStream = fs.createReadStream(filePath, {
 });
 
 readStream.on('data', (chunk) => {
-  console.log('Новий шматок даних:');
+  console.log('Новий шматок даних:', chunk);
 });
 
 readStream.on('end', () => {
